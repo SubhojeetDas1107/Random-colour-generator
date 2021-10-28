@@ -1,8 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 * {
   margin: 0;
   padding: 0;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 16px;
 }
 
@@ -36,6 +36,10 @@ body {
 
 .wrapper {
   align-self: center;
+  border: 3px solid white;
+  background-color: none;
+  padding: 20px;
+  border-radius: 20px;
 }
 
 .wrapper span,
@@ -51,13 +55,13 @@ body {
 
 .wrapper button {
   background: none;
-  border: 3px solid #fff;
+  border: 1px solid #fff;
   padding: 10px 20px;
-  border-radius: 20px;
   color: #fff;
-  font-size: 2rem;
-  margin-top: 10px;
+  font-size: 20px;
+  margin: 15px 25px;
   outline: none;
+  border-radius: 10px;
 }
 
 .footer{
